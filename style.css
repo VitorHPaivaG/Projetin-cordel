@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    
+}
+
+#linkversos:hover {
+    text-decoration: underline 0.2px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    width: 150px;
+    
+}
+
+footer {
+    background-color: black;
+    margin: 0px;
+    padding: 5px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.linkfooter:hover {
+    text-decoration: underline 0.2px;
+}
