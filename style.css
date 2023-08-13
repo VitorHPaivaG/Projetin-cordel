@@ -1,57 +1,70 @@
 @charset "UTF-8";
 
-
-body {
+* {
     margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte-padrao: ;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
 }
 
 header {
     background-color: black;
-    padding: 10px;
-    
-}
-
-#linkversos:hover {
-    text-decoration: underline 0.2px;
-}
-
-header h1 {
     color: white;
     text-align: center;
 }
 
-header p {
-    color: white;
-    text-align: center;
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
-header a {
+header > p {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+a {
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 
+a:hover {
+    text-decoration: underline 0.2px;
+}
 
 footer {
     background-color: black;
-    margin: 0px;
+    color: white;
     padding: 5px;
-}
-
-footer p {
-    color: white;
     text-align: center;
-    margin: 0px;
 }
 
-footer a {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgba(0, 0, 0, 0.409);
     color: white;
-    text-decoration: none;
 }
 
-.linkfooter:hover {
-    text-decoration: underline 0.2px;
-}
-
-p {
-    margin-top: 0px;
+.imagem > p {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.169);
 }
