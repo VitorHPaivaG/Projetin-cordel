@@ -30,10 +30,6 @@ header a {
     text-decoration: none;
 }
 
-article {
-    width: 150px;
-    
-}
 
 footer {
     background-color: black;
@@ -54,4 +50,8 @@ footer a {
 
 .linkfooter:hover {
     text-decoration: underline 0.2px;
+}
+
+p {
+    margin-top: 0px;
 }
